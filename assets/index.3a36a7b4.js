@@ -15600,8 +15600,8 @@ function J0() {
         text: "This site is /under development/ Some functions may /not be available/",
       }),
       m($0, {
-        color: "#9e6639",
-        image: "./images/countries/israel/footer8.1.jpg",
+        color: "#397b9e",
+        image: "./images/mainPage/0.jpg",
       }),
     ],
   });
