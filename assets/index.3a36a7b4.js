@@ -15094,8 +15094,8 @@ function $0({ color: e, image: t }) {
         className: St.bottom,
         children: [
           m("p", { children: " 2024 \xA9 first class solutions" }),
-          m("a", { href: "", children: "Privacy & Cookie Policy" }),
-          m("a", { href: "", children: "Public Offer" }),
+          m("a", { href: "", children: "Политика конфиденциальности и куки" }),
+          m("a", { href: "", children: "Публичная оферта" }),
           m("p", { children: "Developed by Digital Trinity" }),
         ],
       }),
