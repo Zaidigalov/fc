@@ -10772,10 +10772,10 @@ function tg({ title: e, places: t, full: n }) {
           j("div", {
             className: "direction__arrows",
             children: [
-              m("img", { src: "../images/circle/circle-arrow.svg", alt: "" }),
-              m("img", { src: "../images/circle/circle-arrow.svg", alt: "" }),
-              m("img", { src: "../images/circle/circle-arrow.svg", alt: "" }),
-              m("img", { src: "../images/circle/circle-arrow.svg", alt: "" }),
+              m("img", { src: "./images/circle/circle-arrow.svg", alt: "" }),
+              m("img", { src: "./images/circle/circle-arrow.svg", alt: "" }),
+              m("img", { src: "./images/circle/circle-arrow.svg", alt: "" }),
+              m("img", { src: "./images/circle/circle-arrow.svg", alt: "" }),
             ],
           }),
           j("div", {
@@ -14770,7 +14770,7 @@ function f0({ title: e, isInputExist: t, tags: n }) {
       children: [
         m("button", {
           className: _t["search-button"],
-          children: m("img", { src: "../images/icons/search.svg", alt: "" }),
+          children: m("img", { src: "./images/icons/search.svg", alt: "" }),
         }),
         m("input", {
           type: "text",
@@ -15335,37 +15335,37 @@ function J0() {
           1: [
             "Antarctica",
             "",
-            "../images/circle/points/antarctica.svg",
+            "./images/circle/points/antarctica.svg",
             "./images/circle/backgrounds/antarctica.jpg",
           ],
           2: [
             "Asia",
             "",
-            "../images/circle/points/asia.svg",
+            "./images/circle/points/asia.svg",
             "./images/circle/backgrounds/asia.jpg",
           ],
           3: [
             "Australia & oceania",
             "",
-            "../images/circle/points/oceania.svg",
+            "./images/circle/points/oceania.svg",
             "./images/circle/backgrounds/oceania.jpg",
           ],
           4: [
             "Africa",
             "",
-            "../images/circle/points/africa.svg",
+            "./images/circle/points/africa.svg",
             "./images/circle/backgrounds/africa.jpg",
           ],
           5: [
             "Europe",
             "",
-            "../images/circle/points/europe.svg",
+            "./images/circle/points/europe.svg",
             "./images/circle/backgrounds/europe.jpg",
           ],
           6: [
             "Middle-east",
             "",
-            "../images/circle/points/middle-east.svg",
+            "./images/circle/points/middle-east.svg",
             "./images/circle/backgrounds/middle-east.jpg",
           ],
         },
