@@ -10368,7 +10368,7 @@ function Km({ full: e, transparent: t }) {
                     m("button", {
                       className: `header__button ${l[t][1]}`,
                       children: m("img", {
-                        src: "/images/icons/change-theme.svg",
+                        src: "./images/icons/change-theme.svg",
                       }),
                     }),
                   ],
@@ -10463,7 +10463,7 @@ function Km({ full: e, transparent: t }) {
             m(ze, {
               to: "/",
               className: `header__logo ${l[t][2]}`,
-              children: m("img", { src: "/images/icons/Logo.svg" }),
+              children: m("img", { src: "./images/icons/Logo.svg" }),
             }),
             j("nav", {
               className: `header__navigation ${l[t][3]}`,
@@ -10474,7 +10474,9 @@ function Km({ full: e, transparent: t }) {
                   children: [
                     m("div", {
                       className: `header__button find-hotel__button ${l[t][1]}`,
-                      children: m("img", { src: "/images/icons/Airplane.svg" }),
+                      children: m("img", {
+                        src: "./images/icons/Airplane.svg",
+                      }),
                     }),
                     m("p", {
                       className: "find-hotel__normal",
@@ -10523,11 +10525,11 @@ function Km({ full: e, transparent: t }) {
               children: [
                 m("button", {
                   className: `header__button ${l[t][1]}`,
-                  children: m("img", { src: "/images/icons/Phone.svg" }),
+                  children: m("img", { src: "./images/icons/Phone.svg" }),
                 }),
                 m("button", {
                   className: `header__button ${l[t][1]}`,
-                  children: m("img", { src: "/images/icons/Email.svg" }),
+                  children: m("img", { src: "./images/icons/Email.svg" }),
                 }),
                 j("button", {
                   className: `header__button ${a} ${l[t][1]}`,
@@ -10770,10 +10772,10 @@ function tg({ title: e, places: t, full: n }) {
           j("div", {
             className: "direction__arrows",
             children: [
-              m("img", { src: "./images/circle/circle-arrow.svg", alt: "" }),
-              m("img", { src: "./images/circle/circle-arrow.svg", alt: "" }),
-              m("img", { src: "./images/circle/circle-arrow.svg", alt: "" }),
-              m("img", { src: "./images/circle/circle-arrow.svg", alt: "" }),
+              m("img", { src: "../images/circle/circle-arrow.svg", alt: "" }),
+              m("img", { src: "../images/circle/circle-arrow.svg", alt: "" }),
+              m("img", { src: "../images/circle/circle-arrow.svg", alt: "" }),
+              m("img", { src: "../images/circle/circle-arrow.svg", alt: "" }),
             ],
           }),
           j("div", {
@@ -14687,7 +14689,7 @@ function l0({ title: e, link: t, image: n }) {
               to: t,
               children: m("svg", {
                 children: m("use", {
-                  href: "/images/icons/arrows.svg#arrow-right",
+                  href: "./images/icons/arrows.svg#arrow-right",
                 }),
               }),
             }),
@@ -14717,7 +14719,7 @@ function sc({ slides: e }) {
       onClick: a,
       children: m("svg", {
         children: m("use", {
-          href: "/images/icons/arrows.svg#arrow-right",
+          href: "./images/icons/arrows.svg#arrow-right",
         }),
       }),
     });
@@ -14729,7 +14731,7 @@ function sc({ slides: e }) {
       onClick: a,
       children: m("svg", {
         children: m("use", {
-          href: "/images/icons/arrows.svg#arrow-right",
+          href: "./images/icons/arrows.svg#arrow-right",
         }),
       }),
     });
@@ -14768,7 +14770,7 @@ function f0({ title: e, isInputExist: t, tags: n }) {
       children: [
         m("button", {
           className: _t["search-button"],
-          children: m("img", { src: "./images/icons/search.svg", alt: "" }),
+          children: m("img", { src: "../images/icons/search.svg", alt: "" }),
         }),
         m("input", {
           type: "text",
@@ -14963,7 +14965,7 @@ function uc({ slides: e, title: t }) {
       onClick: s,
       children: m("svg", {
         children: m("use", {
-          href: "/images/icons/arrows.svg#arrow-right",
+          href: "./images/icons/arrows.svg#arrow-right",
         }),
       }),
     });
@@ -14975,7 +14977,7 @@ function uc({ slides: e, title: t }) {
       onClick: s,
       children: m("svg", {
         children: m("use", {
-          href: "/images/icons/arrows.svg#arrow-right",
+          href: "./images/icons/arrows.svg#arrow-right",
         }),
       }),
     });
@@ -15232,7 +15234,7 @@ function Z0({ slides: e, title: t }) {
       onClick: g,
       children: m("svg", {
         children: m("use", {
-          href: "/images/icons/arrows.svg#arrow-right",
+          href: "./images/icons/arrows.svg#arrow-right",
         }),
       }),
     });
@@ -15244,7 +15246,7 @@ function Z0({ slides: e, title: t }) {
       onClick: g,
       children: m("svg", {
         children: m("use", {
-          href: "/images/icons/arrows.svg#arrow-right",
+          href: "./images/icons/arrows.svg#arrow-right",
         }),
       }),
     });
@@ -15323,7 +15325,7 @@ function J0() {
       m(eg, {
         full: !0,
         country: "Visit /Russian federation/ with First Class",
-        image: "/images/mainPage/0.jpg",
+        image: "./images/mainPage/0.jpg",
         isButtonExist: !0,
       }),
       m(tg, {
@@ -15333,38 +15335,38 @@ function J0() {
           1: [
             "Antarctica",
             "",
-            "./images/circle/points/antarctica.svg",
-            "/images/circle/backgrounds/antarctica.jpg",
+            "../images/circle/points/antarctica.svg",
+            "./images/circle/backgrounds/antarctica.jpg",
           ],
           2: [
             "Asia",
             "",
-            "./images/circle/points/asia.svg",
-            "/images/circle/backgrounds/asia.jpg",
+            "../images/circle/points/asia.svg",
+            "./images/circle/backgrounds/asia.jpg",
           ],
           3: [
             "Australia & oceania",
             "",
-            "./images/circle/points/oceania.svg",
-            "/images/circle/backgrounds/oceania.jpg",
+            "../images/circle/points/oceania.svg",
+            "./images/circle/backgrounds/oceania.jpg",
           ],
           4: [
             "Africa",
             "",
-            "./images/circle/points/africa.svg",
-            "/images/circle/backgrounds/africa.jpg",
+            "../images/circle/points/africa.svg",
+            "./images/circle/backgrounds/africa.jpg",
           ],
           5: [
             "Europe",
             "",
-            "./images/circle/points/europe.svg",
-            "/images/circle/backgrounds/europe.jpg",
+            "../images/circle/points/europe.svg",
+            "./images/circle/backgrounds/europe.jpg",
           ],
           6: [
             "Middle-east",
             "",
-            "./images/circle/points/middle-east.svg",
-            "/images/circle/backgrounds/middle-east.jpg",
+            "../images/circle/points/middle-east.svg",
+            "./images/circle/backgrounds/middle-east.jpg",
           ],
         },
       }),
@@ -15373,22 +15375,22 @@ function J0() {
         slides: [
           {
             title: "Hotel",
-            image: "/images/countries/israel/hotels/1.jpg",
+            image: "./images/countries/israel/hotels/1.jpg",
             link: "/hotel",
           },
           {
             title: "Hotel",
-            image: "/images/countries/israel/hotels/1.jpg",
+            image: "./images/countries/israel/hotels/1.jpg",
             link: "/hotel",
           },
           {
             title: "Hotel",
-            image: "/images/countries/israel/hotels/1.jpg",
+            image: "./images/countries/israel/hotels/1.jpg",
             link: "/hotel",
           },
           {
             title: "Hotel",
-            image: "/images/countries/israel/hotels/1.jpg",
+            image: "./images/countries/israel/hotels/1.jpg",
             link: "/hotel",
           },
         ],
@@ -15404,7 +15406,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/10.jpg",
+            background: "./images/mainPage/10.jpg",
           },
           {
             tags: [],
@@ -15415,7 +15417,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/01.jpg",
+            background: "./images/mainPage/01.jpg",
           },
           {
             tags: [],
@@ -15426,7 +15428,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/2.jpg",
+            background: "./images/mainPage/2.jpg",
           },
           {
             tags: [],
@@ -15437,7 +15439,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/1.jpg",
+            background: "./images/mainPage/1.jpg",
           },
           {
             tags: [],
@@ -15448,7 +15450,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/3.jpg",
+            background: "./images/mainPage/3.jpg",
           },
           {
             tags: [],
@@ -15459,7 +15461,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/4.jpg",
+            background: "./images/mainPage/4.jpg",
           },
         ],
         title: "For /Busy Bee\u2019s/ on the Fly",
@@ -15475,7 +15477,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/5.jpg",
+            background: "./images/mainPage/5.jpg",
           },
           {
             tags: [],
@@ -15486,7 +15488,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/6.jpg",
+            background: "./images/mainPage/6.jpg",
           },
           {
             tags: [],
@@ -15497,7 +15499,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/7.jpg",
+            background: "./images/mainPage/7.jpg",
           },
           {
             tags: [],
@@ -15508,7 +15510,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/8.jpg",
+            background: "./images/mainPage/8.jpg",
           },
           {
             tags: [],
@@ -15519,7 +15521,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/9.jpg",
+            background: "./images/mainPage/9.jpg",
           },
           {
             tags: [],
@@ -15530,7 +15532,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/11.jpg",
+            background: "./images/mainPage/11.jpg",
           },
         ],
         title: "Premium /care/ for a Premium /Experience/",
@@ -15546,7 +15548,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/16.jpg",
+            background: "./images/mainPage/16.jpg",
           },
           {
             tags: [],
@@ -15557,7 +15559,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/11.jpg",
+            background: "./images/mainPage/11.jpg",
           },
           {
             tags: [],
@@ -15568,7 +15570,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/12.jpg",
+            background: "./images/mainPage/12.jpg",
           },
           {
             tags: [],
@@ -15579,7 +15581,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/13.jpg",
+            background: "./images/mainPage/13.jpg",
           },
           {
             tags: [],
@@ -15590,7 +15592,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/14.jpg",
+            background: "./images/mainPage/14.jpg",
           },
           {
             tags: [],
@@ -15601,7 +15603,7 @@ function J0() {
             isLinkExist: !0,
             linkText: "Explore",
             link: "#",
-            background: "/images/mainPage/15.jpg",
+            background: "./images/mainPage/15.jpg",
           },
         ],
         title: "Exclusive /Voyages/ Without /Boundaries/",
@@ -15611,7 +15613,7 @@ function J0() {
       }),
       m($0, {
         color: "#9e6639",
-        image: "/images/countries/israel/footer8.1.jpg",
+        image: "./images/countries/israel/footer8.1.jpg",
       }),
     ],
   });
